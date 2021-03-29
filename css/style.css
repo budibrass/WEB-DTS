@@ -20,7 +20,7 @@ a{
 	background-size: 1330px;
 	background-position: right bottom;
 	background-repeat: no-repeat;
-	background-image: url("../images/bg.png");
+	background-image: url("../images/cover.png");
 	background-color: #edf1fd;
 }
 nav{
@@ -120,6 +120,10 @@ nav{
 	justify-content: space-between;
 	padding: 50px 5% 0px 5%;
 	position: relative;
+}
+
+.about-model {
+	width: 5x;
 }
 
 #about .about-text table tr{
@@ -494,6 +498,23 @@ width: 100%;
 	transform: scale(1.04);
 	transition: all ease 0.1s;
 }
+
+footer img {
+	width: 100px;
+	float: left;
+}
+
+footer p {
+	color: #1B1B1B;
+	font-size: 20px;
+	text-align: center;
+}
+
+footer {
+	padding:15px 50px;
+	background-color: #f8dbbd;
+}
+
 @media(max-width:1190px){
 	#main{
 		background-size: 1150px !important;
